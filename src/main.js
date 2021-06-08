@@ -2,7 +2,7 @@
  * @author: hewei
  * @Date: 2021-04-14 09:42:00
  * @LastEditors: xiejiaxin
- * @LastEditTime: 2021-06-09 06:42:31
+ * @LastEditTime: 2021-06-09 07:28:33
  * @description: file content
  */
 // The Vue build version to load with the `import` command
@@ -63,6 +63,7 @@ export async function render(props = {}) {
 	})
 	instance = new Vue({
 		router,
+		store,
 		render: (h) => h(App)
 	}).$mount(container ? container.querySelector('#app') : '#app');
 }
