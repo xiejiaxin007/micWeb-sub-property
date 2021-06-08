@@ -1,0 +1,170 @@
+.v-box {
+    margin-bottom: 20px;
+    padding: 0 20px 10px;
+    background-color: #fff;
+}
+.v-box:after,
+.v-box .hd:after,
+.v-box .bd:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.v-box .hd {
+    height: 46px;
+    border-bottom: 1px solid #edeff0;
+    margin-bottom: 10px;
+}
+.v-box .hd h2 {
+    color: #333;
+    font-size: 16px;
+    margin: 0 20px 0 0;
+    border-bottom: 2px solid #a9a9a9;
+}
+.v-box .hd > .link,
+.v-box .hd h2,
+.v-box .hd > .link-area li {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+.v-box:after,
+.v-box .hd:after,
+.v-box .bd:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.v-box .bd {
+    padding-top: 10px;
+}
+.s-query > li {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    width: 340px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.s-query > li.auto,
+.s-query > li.report {
+    width: 100%;
+    clear: both;
+}
+.s-query > li.auto-column .th {
+    width: auto;
+}
+.s-query .th {
+    float: left;
+    text-align: right;
+    width: 130px;
+    height: 40px;
+}
+.s-query .th,
+.s-query .td {
+    overflow: hidden;
+}
+.s-query > li.c-li-2,
+.s-query > li.s-ext {
+    width: 590px;
+}
+.btn-area {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.s-query .required:before,
+.c-query .required:before {
+    content: "*";
+    color: #ff6d6f;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-right: 2px;
+}
+h2,
+h3 {
+    font-weight: 500;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.bread-crumb-box {
+    line-height: 57px;
+}
+body .tangram-suggestion-main {
+    z-index: 99;
+    height: auto;
+    overflow-y: auto;
+}
+/*最外层修改tooltip样式*/
+body .popper-custom {
+    width: 260px;
+    z-index: 3 !important;
+}
+body .popper-custom > div {
+    max-height: 90px;
+    overflow-y: auto;
+}
+body .popper-custom p {
+    font-weight: normal;
+    font-size: 12px;
+}
+body .popper-custom img {
+    display: none;
+}
+/**
+* describe: 覆盖自动生成的iconfont样式（匹配‘icon’设置font-family为icon）
+* author: xiejiaxin
+* date: 2019.10.14
+*/
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 下拉框防抖动 */
+.no-shake-select .el-select__tags {
+    position: relative;
+    transform: translateY(0);
+    z-index: 11;
+    min-height: 40px;
+    padding: 3px 0;
+    box-sizing: border-box;
+}
+.no-shake-select .el-input {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    height: 100%;
+}
+.no-shake-select .el-input .el-input__inner {
+    height: 100% !important;
+}
+/* 表格中过长展示popover，设置最小宽度 */
+.tb-popper {
+    max-width: 300px;
+    min-width: 60px;
+}
+/*解决某些电脑缩放导致的表头错位 多出一条线*/
+.el-table th.gutter {
+    display: table-cell !important;
+}

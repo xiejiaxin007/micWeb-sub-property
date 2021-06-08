@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon/星星灰色@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/星星灰色" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-21-Copy-14">
+            <rect id="Rectangle" fill="#ECF0F4" x="0" y="0" width="24" height="24" rx="2"></rect>
+            <g id="星" transform="translate(3.000000, 3.000000)" fill="#FEFFFE">
+                <polygon id="Star" points="9 14.9252329 3.4376941 18 4.5 11.4875388 -6.13883944e-13 6.8753882 6.21884705 5.92523292 9 0 11.7811529 5.92523292 18 6.8753882 13.5 11.4875388 14.5623059 18"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

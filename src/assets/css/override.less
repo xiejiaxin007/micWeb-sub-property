@@ -1,0 +1,114 @@
+/*
+ * @Name: 覆盖element-ui样式
+ * @Description: 覆盖element-ui样式
+ * @Author: xiejiaxin
+ * @Date: 2020-03-07
+*/
+.house-type-popper {
+    top: 120px !important;
+    background: rgba(0,0,0,0.6);
+    border-radius: 0px 0px 4px 4px;
+    border: none;
+    font-family: "PingFangSC-Regular","PingFang SC", "Microsoft YaHei";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-shadow: none;
+    .el-select-dropdown__list {
+        padding: 8px 0 0 0;
+    }
+    .popper__arrow {
+        display: none;
+    }
+    .el-select-dropdown__item {
+        height: 17px;
+        line-height: 17px;
+        margin-bottom: 8px;
+        padding: 0 14px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.6);
+        &>span {
+            font-family: PingFangSC-Regular,PingFang SC;
+        }
+    }
+    .el-select-dropdown__item {
+        &.hover {
+            color: #2776ef;
+            background-color: transparent;
+        }
+        &.selected {
+            color: #2776ef;
+        }
+    }
+    .el-select-dropdown__item {
+        &:hover {
+            color: #2776ef;
+            background-color: transparent;
+        }
+    }
+}
+.live-dialog-wrapper {
+    background :url(../images/bg-dialog.png) no-repeat right bottom;
+    background-size: 196px 196px;
+    background-color: #fff;
+    .el-dialog__body{
+        padding: 0 24px 0 24px;
+        min-height: 51px;
+    }
+}
+.user-enlarge-wrapper {
+    border-radius: 8px;
+    .el-dialog__body {
+        padding: 0;
+        height: 100%;
+    }
+}
+.choose-house-hx-dialog {
+    border-radius: 8px;
+}
+.common-dialog {
+    .el-dialog__body {
+        padding: 0 24px;
+    }
+}
+.info-dialog {
+    .el-dialog__body {
+        padding: 4px 24px 24px 24px;
+    }
+    .el-dialog__header {
+        font-weight: 500;
+        .el-dialog__headerbtn {
+            font-size: 20px;
+        }
+    }
+    .dialog-tip {
+        color: #333;
+        .tip-tit {
+            font-size: 15px;
+            color: #000;
+        }
+        .tip-info {
+            &.first-info{
+                margin-top: 6px;
+            }
+        }
+        .dialog-warn-tip {
+            margin-top: 8px;
+            color: #ff0000;
+        }
+    }
+    .top-seperate {
+        margin-top: 10px;
+        font-size: 15px;
+        color: #000;
+    }
+}
+// 添加覆盖element tooltip全局的样式，修复tips文字过长溢出问题（由于tips在app同级，故采取全局覆盖）
+.el-tooltip__popper {
+    max-width: 80%;
+}
+// message组件在windows电脑上，提示字段上下有点重叠
+.pop-msg-box {
+    /deep/.el-message__content {
+        line-height: 18px;
+    }
+}

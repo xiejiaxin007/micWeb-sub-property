@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon/屏幕共享@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/屏幕共享" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(1.000000, 1.000000)">
+            <rect id="矩形" x="0" y="0" width="22" height="22"></rect>
+            <rect id="矩形" stroke="#FFFFFF" stroke-width="1.65" x="0.825" y="0.825" width="20.35" height="13.0166667" rx="1.83333333"></rect>
+            <polygon id="三角形" fill="#FFFFFF" points="11 8.0074056 16.9982524 13.1289673 4.81831868 13.1289673"></polygon>
+            <line x1="5.5" y1="20.625" x2="16.5" y2="20.625" id="直线-2" stroke="#FFFFFF" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="11" y1="12.8333333" x2="11" y2="20.1666667" id="直线" stroke="#FFFFFF" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,87 @@
+/**
+* @Name: 弹窗公共样式文件
+* @Description: 此文件非ui出的样式文件，后期若ui统一 可以改此文件，但只能改像素值
+* @Author: wangxue
+* @Date: 2020-4-29
+*/
+.common-dialog-wrapper{
+    width: 520px;
+    border-radius:8px;
+    .el-dialog__header{
+        padding: 30px 24px 24px 24px;
+        .dialog-header{
+            font-family: "PingFangSC-Medium", "Microsoft YaHei";
+        }
+    }
+    .el-dialog__footer{
+        margin-top: 4px;
+        padding: 0 24px 30px;
+        .el-button{
+            min-width: 92px;
+            padding: 11px 14px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .el-button--default{
+            border-color: #ddd;
+            color: #222;
+            &:hover{
+                border-color: #2776ef;
+                color: #2776ef;
+            }
+        }
+        .el-button--primary{
+            background-color: #2776ef;
+            border-color: #2776ef;
+            &:hover{
+                background:rgba(39,118,239,0.8);
+                border-color: rgba(39,118,239,0.8);
+            }
+        }
+        .el-button{
+            &+.el-button{
+                margin-left: 24px;
+            }
+        }
+    }
+    .dialog-header{
+        line-height: 32px;
+        padding: 0 36px;
+        box-sizing: border-box;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #222;
+        font-size: 24px;
+        .iconclose_dialog{
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 16px;
+            color: #888;
+        }
+    }
+    .el-dialog__body{
+        padding: 0 24px 0 24px;
+        .body-box-content {
+            margin-bottom: 30px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #333;
+            .left-right-layout {
+                .th, .td {
+                    float: left;
+                }
+                >li {
+                    margin-bottom: 16px;
+                    &::after {
+                        content:""; 
+                        display: block; 
+                        clear:both; 
+                    }
+                }
+            }
+            
+        }
+    }
+}

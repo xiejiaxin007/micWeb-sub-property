@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/数据上传</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/数据上传" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#52C41A" cx="6" cy="6" r="6"></circle>
+        <path d="M8.79498345,3.21966991 C9.07064765,2.9267767 9.51758764,2.9267767 9.79325185,3.21966991 C10.0689161,3.51256313 10.0689161,3.98743687 9.79325185,4.28033009 L5.55795773,8.78033009 C5.28229352,9.0732233 4.83535354,9.0732233 4.55968933,8.78033009 L2.20674815,6.28033009 C1.93108395,5.98743687 1.93108395,5.51256313 2.20674815,5.21966991 C2.48241236,4.9267767 2.92935235,4.9267767 3.20501655,5.21966991 L5.05882353,7.18933983 L8.79498345,3.21966991 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
