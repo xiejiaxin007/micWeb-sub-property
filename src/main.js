@@ -2,7 +2,7 @@
  * @author: hewei
  * @Date: 2021-04-14 09:42:00
  * @LastEditors: xiejiaxin
- * @LastEditTime: 2021-06-09 07:28:33
+ * @LastEditTime: 2021-06-17 07:09:58
  * @description: file content
  */
 // The Vue build version to load with the `import` command
@@ -44,7 +44,7 @@ if (host === 'backend.julive.com') {
 // 设置为全局的axios
 Vue.prototype.axios = axios
 
-import routes from './router';
+import routes from './router/index';
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 // 声明变量管理

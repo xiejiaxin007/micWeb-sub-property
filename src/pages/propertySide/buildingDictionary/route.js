@@ -34,8 +34,14 @@ const QualityList = () => import('./automaticMaintenance/QualityList.vue');
 const AddQualityInfo = () => import('./automaticMaintenance/AddQualityInfo');
 // 资料库
 const BuildingDataBank = () => import('./BuildingDataBank.vue');
+const Login = () => import('../../Login.vue');
 
 export default [
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
     {
       path: '/buildingCompare',
       name: 'BuildingCompare',
